@@ -1,0 +1,187 @@
+
+/*Reset style*/
+img{
+    max-width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+/* common style*/
+.common-btn {
+    background-color: #FD6E0A;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.outline-btn {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color:#FD6E0A;
+    border: 1px solid #FD6E0A;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+.logo-r {
+    color: #FD6E0A;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+
+}
+
+/*hero section style*/
+.hero-parent-root{
+    background-color: #fff8f3;
+}
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left-p1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.hero-left h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+.hero-left-button-parents{
+    margin-top: 12px;
+}
+/* about-us css */
+.about-parent{
+    background-color: #fff8f3;
+    margin: 70px auto;
+    padding: 75px;
+    text-align: center;
+}
+.about-parent p{
+    margin: 20px 0;
+}
+.about-box-parents{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.about-box-parents .box{
+    background-color: #d78756;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/*what-i-do section css*/
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;
+}
+.what-i-do-card-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;px;
+}
+.what-i-do-card-container .what-i-do-card{
+    border: 2px solid #FD6E0A;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: left;
+}
+.what-i-do-card-container .what-i-do-card h2{
+    margin: 10px 0px;
+}
+.what-i-do-card-container .what-i-do-card p{
+    color: #757575;
+    font-size: 15px;
+}
+/*Resume Section*/
+.resume{
+    margin: 100px auto;
+}
+.section-title{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.resume-column{
+    flex: 1;
+}
+.resume-column h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.resume-item{
+    padding: 20px 0;
+}
+.resume-item h3{
+  font-size: 24px;
+  color: #474747;  
+  margin-bottom: 10px;
+}
+.resume-item h4{
+    font-size: 18px;
+    color: #747474;
+    margin-bottom: 15px;
+}
+.resume-item p{
+    color: #757575;
+    line-height: 1.8;
+}
+.resume hr{
+    border: none;
+    border-top: 1px solid #ddd;
+}
+/*Button*/
+.resume-btn{
+    text-align:center ;
+    margin-top: 50px;
+}
+.resume-btn . .common-btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
